@@ -1,52 +1,46 @@
-# ATM Simulation Project
+# ATM Simulation
 
 ## Project Overview
-Welcome to the ATM Simulation project! This project provides a functional simulation of an ATM system that allows users to perform various banking transactions safely and securely.
+This application simulates an ATM system, allowing users to interact with various bank functions through a simulated interface.
 
 ## Features
-- User authentications using PINs
-- Check balance
-- Withdraw and deposit cash
-- Transfer funds between accounts
-- Transaction history
+- User authentication
+- Cash withdrawal
+- Balance inquiry
+- Fund transfer
 
-## Installation
-1. Clone the repository:
+## Installation for Java
+1. Ensure you have Java Development Kit (JDK) version 8 or above installed. You can download it from [Oracle's JDK page](https://www.oracle.com/java/technologies/javase-jdk8-downloads.html).
+2. Set up your environment variables (JAVA_HOME and PATH) to point to the JDK installation directory.
+3. Clone the repository:
    ```bash
    git clone https://github.com/RohancRevankar/Syntecxhub_-ATM_Simulation.git
    ```
-2. Navigate to the project directory:
+4. Navigate to the project directory:
    ```bash
    cd Syntecxhub_-ATM_Simulation
    ```
-3. Install dependencies (if any):
+5. Compile the Java files:
    ```bash
-   npm install
+   javac *.java
+   ```
+6. Run the application:
+   ```bash
+   java MainClass
    ```
 
 ## Usage
-- To start the ATM simulation, run:
-  ```bash
-  node app.js
-  ```
-- Follow the instructions on the screen to perform transactions.
+- After starting the application, follow the prompts to log in using the provided test accounts.
+- You can perform various operations like withdrawing cash, checking your balance, and transferring funds.
 
 ## Test Accounts
-- **User 1:** Username: `user1`, PIN: `1234`
-- **User 2:** Username: `user2`, PIN: `5678`
+- Account 1: Username: `user1`, Password: `password1`
+- Account 2: Username: `user2`, Password: `password2`
 
 ## Architecture
-The ATM Simulation project follows a modular architecture, separating different functionalities:
-- **Authentication Module:** Manages user logins and PIN verification.
-- **Transaction Module:** Handles all banking operations like withdrawals, deposits, and transfers.
-- **History Module:** Logs and provides access to transaction history.
-
-## License
-This project is licensed under the MIT License.
+The application follows a simple MVC architecture that separates the data (Model), the UI (View), and the business logic (Controller).
 
 ## Contact
-- **Author:** Rohanc Revankar  
-- **GitHub:** [RohancRevankar](https://github.com/RohancRevankar)  
-
----  
-Thank you for checking out the ATM Simulation project!
+For questions or suggestions, please reach out to:
+- Name: Rohan Revankar
+- Email: rohancrevankar@example.com
